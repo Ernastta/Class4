@@ -155,7 +155,7 @@ def term_frequency(target_word: str, target_chapter_idx: int) -> float:
     tf = target_word_count / total_words
     return tf
 
-# Тестовые вызовы
+# Пример использования:
 tf = term_frequency("картина", 3)
 print(f"Частота слова 'картина' в третьей главе: {tf}")
 
